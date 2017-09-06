@@ -1,9 +1,9 @@
 nav a{
     color: blue;
-    padding: 15px;
+    padding: 10px;
     font-size: 1.8em;
     text-decoration: none;
-    
+    width: 50%;
     
 }
 body{
@@ -12,7 +12,7 @@ body{
     font-size: 1.2em;
     font-family: 'Raleway', sans-serif;
     background-attachment: local;
-    
+    background-image: url("img/lightning.jpg");
 }
 nav a:hover{
     color: red;
