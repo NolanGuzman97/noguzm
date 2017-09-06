@@ -1,0 +1,39 @@
+nav a{
+    color: blue;
+    padding: 15px;
+    font-size: 1.8em;
+    text-decoration: none;
+    
+    
+}
+body{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    background-attachment: local;
+    
+}
+nav a:hover{
+    color: red;
+    border-bottom: 2px white solid;
+    font-size: 2em;
+    transition: .6;
+}
+#HomePage, #History, #Progression, #Future{
+    border-bottom:2px white solid;
+    font-size: 1.8em;
+    color: red;
+}
+#pic img{
+    border-radius: 20px 20px 20px 20px;
+}
+h1{
+    text-shadow: 2px 2px blue;
+    font-weight: bold;
+}
+q{
+    text-decoration: underline;
+}
+
+
