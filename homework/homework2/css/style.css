@@ -1,0 +1,29 @@
+#human, #computer{
+    border-style: ridge;
+    border-width: thick;
+    font-size: 2em;
+    text-shadow: 2px 2px blue;
+    float: inherit;
+    text-align:center;
+    margin: auto;
+}
+html{
+    background: linear-gradient(to top right, #ffff99 19%, #3399ff 94%);
+    background-repeat:no-repeat;
+    height: 100%;
+    background-size: cover;
+    
+}
+#computerTitle, #humanTitle, #tie{
+    float: inherit;
+    margin: auto;
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 1.5px 2px blue;
+}
+#button{
+    float: inherit;
+    margin: auto;
+    width: 70px;
+    height: 30px;
+}

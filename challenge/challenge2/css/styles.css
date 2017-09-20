@@ -1,0 +1,15 @@
+body{
+    text-align:center;
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+span{
+    font-size: 30px;
+    padding: 10px;
+    color:#ff0000;
+}
+#card{
+    padding: 10px;
+}
+h2{
+    color:#ff0000;
+}

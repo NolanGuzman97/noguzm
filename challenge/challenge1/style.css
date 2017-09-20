@@ -1,0 +1,40 @@
+html{
+    background:black;
+}
+div{
+    display: inline-block;
+}
+div img{
+     width:350px;
+}
+#tleft img{
+    border-radius:25px 0px 0px 0px;
+}
+#tright img{
+    border-radius:0px 25px 0px 0px;
+}
+#bleft img{
+    border-radius:0px 0px 0px 25px;
+}
+#bright img{
+    border-radius:0px 0px 25px 0px;
+}
+body{
+    text-align: center;
+}
+span{
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+.heading{
+    color:yellow;
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+}
+div img:hover{
+    width:400px;
+    transition: width .5s;
+}
+.h1{
+    text-shadow: 2px 2px blue;
+}

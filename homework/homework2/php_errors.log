@@ -1,0 +1,8 @@
+[17-Sep-2017 18:47:11 UTC] PHP Warning:  shuffle() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/noguzm/homework/homework2/inc/functions.php on line 8
+[17-Sep-2017 18:47:11 UTC] PHP Stack trace:
+[17-Sep-2017 18:47:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework2/inc/functions.php:0
+[17-Sep-2017 18:47:11 UTC] PHP   2. shuffle() /home/ubuntu/workspace/noguzm/homework/homework2/inc/functions.php:8
+[17-Sep-2017 18:47:11 UTC] PHP Warning:  shuffle() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/noguzm/homework/homework2/inc/functions.php on line 9
+[17-Sep-2017 18:47:11 UTC] PHP Stack trace:
+[17-Sep-2017 18:47:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework2/inc/functions.php:0
+[17-Sep-2017 18:47:11 UTC] PHP   2. shuffle() /home/ubuntu/workspace/noguzm/homework/homework2/inc/functions.php:9
