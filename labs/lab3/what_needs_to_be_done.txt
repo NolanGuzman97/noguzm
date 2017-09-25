@@ -1,0 +1,12 @@
+We need a php function to generate the overall score for the player and find out who won. - Cynthia 
+Need some extra CSS to make the page look a little better. -Cynthia
+Need a PHP function to figure out the time elapsed on the page.  -Raeleen  //how many times the game has been played, average time and overall elapsed time.
+
+
+I'm not sure of all requirements, but I know those things need to be done.
+
+I guess put your name next to what you want to do. I did pretty much the base of what the website should do.. Rest should be relatively easy
+
+If you need any help. Shoot me an email: cforsythe@csumb.edu
+
+Link to assignment requirements: https://ilearn.csumb.edu/mod/assign/view.php?id=472962
