@@ -17,14 +17,14 @@ function checkMemory(){
 <!DOCTYPE html>
 <html>
     <head>
-        <title>uPhone</title>
+        <title>yuPhone</title>
         <meta charset="utf-8"/>
         <link href="css/style.css" rel="stylesheet" type="text/css" />
        <link href="https://fonts.googleapis.com/css?family=Chivo|Geo|Kaushan+Script|Michroma" rel="stylesheet">
     <body>
        <div class="wrapper">
-           <h1><strong>uPhone</strong></h1>
-           <h2>The phone designed for you, and only you.</h2>
+           <h1><strong>yuPhone</strong></h1>
+           <h2>The phone designed for yu, and only yu.</h2>
        
        
        <div>
@@ -70,13 +70,13 @@ function checkMemory(){
                     
                     echo '<div class="boxed">';
                     if($_GET['phoneColor']=="rosegold"){
-                        echo 'uPhone is composed of Rose Gold plating, ';
+                        echo 'yuPhone is composed of Rose Gold plating, ';
                     }
                     if($_GET['phoneColor']=="gold"){
-                        echo 'uPhone is composed of Gold plating, ';
+                        echo 'yuPhone is composed of Gold plating, ';
                     }
                     if($_GET['phoneColor']=="silver"){
-                        echo 'uPhone is composed of Silver plating, ';
+                        echo 'yuPhone is composed of Silver plating, ';
                     }
                     echo $_GET['memory'] . ' GB memory, and personal engraving: <strong>';
                     if(empty($_GET['personal'])){
