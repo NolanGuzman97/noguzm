@@ -2,3 +2,327 @@
 [06-Sep-2017 20:25:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/noguzm/labs/lab2/index.php on line 38
 [06-Sep-2017 20:25:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/noguzm/labs/lab2/index.php on line 38
 [22-Sep-2017 19:50:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 8
+[27-Sep-2017 20:44:13 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 55
+[27-Sep-2017 20:44:13 UTC] PHP Stack trace:
+[27-Sep-2017 20:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab4/index.php:0
+[29-Sep-2017 19:49:10 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 79
+[29-Sep-2017 19:49:10 UTC] PHP Stack trace:
+[29-Sep-2017 19:49:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab4/index.php:0
+[29-Sep-2017 19:49:10 UTC] PHP   2. count() /home/ubuntu/workspace/noguzm/labs/lab4/index.php:79
+[29-Sep-2017 19:50:16 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 79
+[29-Sep-2017 19:50:16 UTC] PHP Stack trace:
+[29-Sep-2017 19:50:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab4/index.php:0
+[29-Sep-2017 19:50:16 UTC] PHP   2. rand() /home/ubuntu/workspace/noguzm/labs/lab4/index.php:79
+[29-Sep-2017 20:00:42 UTC] PHP Parse error:  syntax error, unexpected 'checkIfSelected' (T_STRING) in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 29
+[29-Sep-2017 20:00:54 UTC] PHP Parse error:  syntax error, unexpected 'checkIfSelected' (T_STRING) in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 29
+[29-Sep-2017 20:00:55 UTC] PHP Parse error:  syntax error, unexpected 'checkIfSelected' (T_STRING) in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 29
+[29-Sep-2017 20:00:56 UTC] PHP Parse error:  syntax error, unexpected 'checkIfSelected' (T_STRING) in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 29
+[29-Sep-2017 20:00:56 UTC] PHP Parse error:  syntax error, unexpected 'checkIfSelected' (T_STRING) in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 29
+[29-Sep-2017 20:00:56 UTC] PHP Parse error:  syntax error, unexpected 'checkIfSelected' (T_STRING) in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 29
+[29-Sep-2017 20:01:16 UTC] PHP Parse error:  syntax error, unexpected 'checkIfSelected' (T_STRING) in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 29
+[29-Sep-2017 20:01:40 UTC] PHP Parse error:  syntax error, unexpected 'checkIfSelected' (T_STRING) in /home/ubuntu/workspace/noguzm/labs/lab4/index.php on line 29
+[13-Oct-2017 19:19:51 UTC] PHP Warning:  include(../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:19:51 UTC] PHP Stack trace:
+[13-Oct-2017 19:19:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:19:51 UTC] PHP Warning:  include(): Failed opening '../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:19:51 UTC] PHP Stack trace:
+[13-Oct-2017 19:19:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:19:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 5
+[13-Oct-2017 19:19:51 UTC] PHP Stack trace:
+[13-Oct-2017 19:19:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:24:21 UTC] PHP Warning:  include(../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:24:21 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:24:21 UTC] PHP Warning:  include(): Failed opening '../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:24:21 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:24:21 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 5
+[13-Oct-2017 19:24:21 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:24:56 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:24:56 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:24:56 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:24:56 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:24:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 5
+[13-Oct-2017 19:24:56 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:24:58 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:24:58 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:24:58 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:24:58 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:24:58 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 5
+[13-Oct-2017 19:24:58 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:25:11 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:25:11 UTC] PHP Stack trace:
+[13-Oct-2017 19:25:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:25:11 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:25:11 UTC] PHP Stack trace:
+[13-Oct-2017 19:25:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:25:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 5
+[13-Oct-2017 19:25:11 UTC] PHP Stack trace:
+[13-Oct-2017 19:25:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:35:54 UTC] PHP Warning:  include(../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:35:54 UTC] PHP Stack trace:
+[13-Oct-2017 19:35:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:35:54 UTC] PHP Warning:  include(): Failed opening '../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[13-Oct-2017 19:35:54 UTC] PHP Stack trace:
+[13-Oct-2017 19:35:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[13-Oct-2017 19:35:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 5
+[13-Oct-2017 19:35:54 UTC] PHP Stack trace:
+[13-Oct-2017 19:35:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[15-Oct-2017 17:18:47 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[15-Oct-2017 17:18:47 UTC] PHP Stack trace:
+[15-Oct-2017 17:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[15-Oct-2017 17:18:47 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[15-Oct-2017 17:18:47 UTC] PHP Stack trace:
+[15-Oct-2017 17:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[15-Oct-2017 17:18:47 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 5
+[15-Oct-2017 17:18:47 UTC] PHP Stack trace:
+[15-Oct-2017 17:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[15-Oct-2017 17:19:11 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[15-Oct-2017 17:19:11 UTC] PHP Stack trace:
+[15-Oct-2017 17:19:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[15-Oct-2017 17:19:11 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[15-Oct-2017 17:19:11 UTC] PHP Stack trace:
+[15-Oct-2017 17:19:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[15-Oct-2017 17:19:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 5
+[15-Oct-2017 17:19:11 UTC] PHP Stack trace:
+[15-Oct-2017 17:19:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[15-Oct-2017 18:28:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 58
+[15-Oct-2017 18:34:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 72
+[15-Oct-2017 18:36:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 72
+[15-Oct-2017 18:38:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 72
+[15-Oct-2017 18:40:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(123): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[15-Oct-2017 18:52:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 72
+[15-Oct-2017 19:49:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 80
+[15-Oct-2017 19:49:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:49:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:50:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:51:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:54:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:55:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:55:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:56:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:56:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:56:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:56:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:56:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:57:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[15-Oct-2017 19:57:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[16-Oct-2017 04:08:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 70
+[16-Oct-2017 04:09:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 04:09:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 04:09:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 04:09:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 04:09:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 04:09:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 04:09:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 04:09:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 04:09:43 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[16-Oct-2017 04:09:43 UTC] PHP Stack trace:
+[16-Oct-2017 04:09:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[16-Oct-2017 04:09:43 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 3
+[16-Oct-2017 04:09:43 UTC] PHP Stack trace:
+[16-Oct-2017 04:09:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[16-Oct-2017 04:09:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 5
+[16-Oct-2017 04:09:43 UTC] PHP Stack trace:
+[16-Oct-2017 04:09:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab5/index.php:0
+[16-Oct-2017 04:09:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(72): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 72
+[16-Oct-2017 04:10:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 128
+[16-Oct-2017 04:11:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71

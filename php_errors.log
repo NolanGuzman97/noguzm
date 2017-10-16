@@ -1,0 +1,10 @@
+[11-Oct-2017 19:54:26 UTC] PHP Fatal error:  Call to undefined function getUsersAndDepartments() in /home/ubuntu/workspace/noguzm/practice/sql_joins.php on line 37
+[11-Oct-2017 19:54:26 UTC] PHP Stack trace:
+[11-Oct-2017 19:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/practice/sql_joins.php:0
+[11-Oct-2017 19:54:35 UTC] PHP Fatal error:  Call to undefined function getUsersAndDepartments() in /home/ubuntu/workspace/noguzm/practice/sql_joins.php on line 37
+[11-Oct-2017 19:54:35 UTC] PHP Stack trace:
+[11-Oct-2017 19:54:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/practice/sql_joins.php:0
+[11-Oct-2017 19:54:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/noguzm/practice/sql_joins.php on line 14
+[11-Oct-2017 19:54:52 UTC] PHP Stack trace:
+[11-Oct-2017 19:54:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/practice/sql_joins.php:0
+[11-Oct-2017 19:54:52 UTC] PHP   2. getUsersAndDepartments() /home/ubuntu/workspace/noguzm/practice/sql_joins.php:37
