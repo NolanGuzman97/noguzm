@@ -326,3 +326,39 @@ Stack trace:
 #1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
 #2 {main}
   thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 05:52:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 06:10:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 06:10:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 06:16:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 06:21:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'deviceName LIKE '\'%iPhone%\'' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71
+[16-Oct-2017 06:22:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'deviceName LIKE '%iPhone%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/noguzm/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/labs/lab5/index.php on line 71

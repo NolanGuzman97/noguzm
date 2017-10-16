@@ -54,8 +54,8 @@ function displayDevices(){
          }     
         
          if (isset($_GET['available'])) {
-             $sql.="AND status LIKE :status";
-             $namedParameters[':status']=  $_GET['deviceName'];
+             $sql.=" AND status LIKE :status";
+             $namedParameters[':status']=  "A";
          }
          
     }
