@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sorting Numbers</title>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Enter 3 numbers from 1 to 50: </h1></br>
+    </body>
+
+        Number 1: <input id="num1" type="text" name="num1"><br>
+        Number 2: <input id="num2" type="text" name="num2"><br>
+        Number 3: <input id="num3" type="text" name="num3"><br>
+        <input id="submit" type="submit" name="Sort!"></br>
+        <span id="error" style="color:red"></span></br>
+        <h2 id="big"></h2></br>
+        <span id="sorted"></span></br>
+    <script>
+        function checkMax(values){
+            var max = values[0];
+            for(var i = 0; i < values.length; i++){
+                if(values[i] > max){
+                    max = values[i];
+                }
+            }
+            return max;
+        }
+        $("#submit").click(function(){
+            var values = [];
+            values.push($("#num1").val());
+            values.push($("#num2").val());
+            values.push($("#num3").val());
+            values.sort();
+            if(values[2] > 50 || values[0] < 1){
+                    $("#error").html("Values must be between 1 and 50");
+                    $("#big").html("");
+                    $("#sorted").html("");
+                    return;
+            }
+            if(values[2] == values[1] && values[1] == values[0]){
+                $("#big").html("All numbers are equal");
+                $("#sorted").html("");
+                return;
+            }
+            else{
+                var max = checkMax(values);
+                $("#big").html("The biggest number is " + max);
+                $("#sorted").html("The numbers in ascending order are: " + values);
+                $("#error").html("");
+            }
+                
+            })
+        
+        
+        
+        
+    </script>
+</html>
