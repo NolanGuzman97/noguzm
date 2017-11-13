@@ -1,0 +1,46 @@
+
+.group{
+    background: #000000;
+}
+#human,#computer{
+    background: #00FF00;
+    border-style: ridge;
+    border-width: thick;
+    font-size: 2em;
+    color:white;
+    text-shadow: 1.5px 2px red;
+    width: 80%;
+    height: 100%;
+    float: inherit;
+    text-align:center;
+    margin: auto;
+}
+html{
+    background: #000000;
+}
+#score{
+    text-align: center;
+    color: white;
+    border-style: ridge;
+    border-width: thick;
+    text-shadow: 1.5px 2px red;
+    font-size: 2.8em;
+     width: 80%;
+    height: 100%;
+    float: inherit;
+    margin: auto;
+}
+#computerTitle, #humanTitle, #tie{
+    float: inherit;
+    margin: auto;
+    font-size: 3.2em;
+    text-align: center;
+    text-shadow: 1.5px 2px white;
+    color: #00FF00;
+}
+#button{
+    float: inherit;
+    margin: auto;
+    width: 80px;
+    height: 50px;
+}
