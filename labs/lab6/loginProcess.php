@@ -2,7 +2,7 @@
 session_start();
 //print_r($_POST);
 
-include '../../../dbConnection.php';
+include '../../dbConnection.php';
 $conn = getDatabaseConnection();
 
 //print_r($conn);

@@ -8,7 +8,7 @@ if (!isset($_SESSION['username'])) { //checks whether admin has logged in
     
 }
 
-include '../../../dbConnection.php';
+include '../../dbConnection.php';
 $conn = getDatabaseConnection();
 
 
