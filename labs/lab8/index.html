@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AJAX: Sign Up Page</title>
+         <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style type="text/css" id="diigolet-chrome-css">
+</style>
+
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script>
+    function getCity() {
+        
+        //alert($("#zip").val());
+        $.ajax({
+
+            type: "get",
+            url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+            dataType: "json",
+            data: { 
+                "zip": $("#zip").val()},
+            success: function(data,status) {
+              
+              //alert(data.city);
+               if (!data) {
+                   
+                 $("#city").append("Zip Code Not Found");
+                 $("#lat").append("Zip Code Not Found");
+                 $("#long").append("Zip Code Not Found");
+                   
+               } else {
+                   
+                 $("#city").html(data.city);
+                 $("#lat").html(data.latitude);
+                 $("#long").html(data.longitude);
+               }
+            
+             
+            
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+
+        });//ajax
+        
+    }  //function
+    
+    
+    
+    function getCounties() {
+        
+       // alert("You've selected state: " + $("#stateId").val());
+        $.ajax({
+        
+        type: "get",
+        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+        dataType: "json",
+        data: { "state": $("#stateId").val()},
+        success: function(data,status) {
+         //alert(data[0].county)
+         $("#countyId").html("<option> Select One </option>");
+         for (var i=0; i < data.length; i++){
+         $("#countyId").append("<option>"+data[i].county+"</option>");
+         }
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+        //alert(status);
+        }
+        
+        });//ajax
+    }
+    
+    function checkUsername() {
+        //alert("hello")
+        $.ajax({
+
+            type: "get",
+            url: "checkUsername.php",
+            dataType: "json",
+            data: { "username": $("#username").val()},
+            success: function(data,status) {
+               //alert(data);
+               
+               if (!data) {
+                   
+                   $("#available").append("Username Available!");
+                   
+               } else {
+                    $("#available").append("Username Un-Available!");
+                   
+               }
+            
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+            
+            });//ajax
+    }
+    function checkPassword(){
+        var pass1=$("#pass1").val();
+        var pass2=$("#pass2").val();
+        if(pass1==pass2){
+            alert("Passwords Match!");
+        }
+        else{
+            alert("Passwords Do Not Match!");
+        }
+    }
+    //event handlers
+    
+    $(document).ready(  function(){
+        $("#zip").change(function(){getCity();});
+        $("#stateId").change(function(){getCounties();});
+        $("#username").change( function(){ checkUsername();});
+        onsubmit=function(){checkPassword()};
+        
+    } ); //documentReady
+    
+    
+</script>
+
+</head>
+
+<body id="dummybodyid">
+
+   <h1> Sign Up Form </h1>
+
+    <form onsubmit="return false">
+        <fieldset>
+           <legend>Sign Up</legend>
+            First Name:  <input type="text"><br> 
+            Last Name:   <input type="text"><br> 
+            Email:       <input type="text"><br> 
+            Phone Number:<input type="text"><br><br>
+            Zip Code:    <input type="text" id="zip"><br>
+            City: <span id="city"></span> 
+            <br>
+            Latitude: <span id="lat"></span> 
+            <br>
+            Longitude:<span id="long"></span> 
+            <br><br>
+            State: <select id="stateId" name="state">
+                <option value="">Select One</option>
+                <option value="ca"> California</option>
+                <option value="ny"> New York</option>
+                <option value="tx"> Texas</option>
+                <option value="va"> Virginia</option>
+
+            </select><br />
+            Select a County: <select id = "countyId"></select><br>
+            
+            Desired Username: <input type="text" id="username"><br>
+            Availability: <span id="available"></span><br>
+            Password: <input id="pass1" type="password"><br>
+            Type Password Again: <input id="pass2" type="password"><br>
+            <input type="submit" value="Sign up!">
+        </fieldset>
+    </form>
+
+
+
+
+</div></body></html>
