@@ -747,3 +747,219 @@
 [10-Oct-2017 06:40:32 UTC] PHP Stack trace:
 [10-Oct-2017 06:40:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework3/index.php:0
 [10-Oct-2017 06:40:32 UTC] PHP   2. checkMemory() /home/ubuntu/workspace/noguzm/homework/homework3/index.php:38
+[28-Nov-2017 18:15:01 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 2
+[28-Nov-2017 18:15:01 UTC] PHP Stack trace:
+[28-Nov-2017 18:15:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework5/index.php:0
+[28-Nov-2017 18:15:01 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 2
+[28-Nov-2017 18:15:01 UTC] PHP Stack trace:
+[28-Nov-2017 18:15:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework5/index.php:0
+[28-Nov-2017 18:15:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 3
+[28-Nov-2017 18:15:01 UTC] PHP Stack trace:
+[28-Nov-2017 18:15:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework5/index.php:0
+[28-Nov-2017 18:17:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(20): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(93): storeValue()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 20
+[28-Nov-2017 18:20:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(96): storeValue()
+#2 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 18
+[28-Nov-2017 18:28:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 19
+[28-Nov-2017 18:35:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 31
+[28-Nov-2017 18:35:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 31
+[28-Nov-2017 18:35:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 31
+[28-Nov-2017 18:35:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 31
+[28-Nov-2017 18:35:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 31
+[28-Nov-2017 18:35:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 31
+[28-Nov-2017 18:37:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 31
+[28-Nov-2017 18:37:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 31
+[28-Nov-2017 18:37:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 31
+[28-Nov-2017 23:57:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 30
+[28-Nov-2017 23:58:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 30
+[28-Nov-2017 23:58:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 30
+[28-Nov-2017 23:59:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 30
+[28-Nov-2017 23:59:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 30
+[29-Nov-2017 00:00:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 30
+[29-Nov-2017 00:04:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'value' in 'field list'' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 27
+[29-Nov-2017 00:05:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'value' in 'field list'' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 27
+[29-Nov-2017 00:05:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'value' in 'field list'' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 27
+[29-Nov-2017 00:05:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'value' in 'field list'' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 27
+[29-Nov-2017 00:05:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 27
+[29-Nov-2017 00:12:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 27
+[29-Nov-2017 00:12:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 27
+[29-Nov-2017 00:13:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:14:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:14:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:14:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:14:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:14:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:15:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:15:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:15:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:15:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 26
+[29-Nov-2017 00:20:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/noguzm/homework/homework5/index.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/index.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 25
+[29-Nov-2017 01:14:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 25
+[29-Nov-2017 01:14:55 UTC] PHP Stack trace:
+[29-Nov-2017 01:14:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework5/index.php:0
+[29-Nov-2017 01:14:55 UTC] PHP   2. runIt() /home/ubuntu/workspace/noguzm/homework/homework5/index.php:84
+[29-Nov-2017 01:14:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/noguzm/homework/homework5/index.php on line 25
+[29-Nov-2017 01:14:59 UTC] PHP Stack trace:
+[29-Nov-2017 01:14:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework5/index.php:0
+[29-Nov-2017 01:14:59 UTC] PHP   2. runIt() /home/ubuntu/workspace/noguzm/homework/homework5/index.php:84
+[29-Nov-2017 02:16:22 UTC] PHP Fatal error:  Undefined class constant 'FET_ASSOC' in /home/ubuntu/workspace/noguzm/homework/homework5/functions.php on line 24
+[29-Nov-2017 02:16:22 UTC] PHP Stack trace:
+[29-Nov-2017 02:16:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework5/functions.php:0
+[29-Nov-2017 02:17:54 UTC] PHP Fatal error:  Undefined class constant 'FET_ASSOC' in /home/ubuntu/workspace/noguzm/homework/homework5/functions.php on line 24
+[29-Nov-2017 02:17:54 UTC] PHP Stack trace:
+[29-Nov-2017 02:17:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework5/functions.php:0
+[29-Nov-2017 04:21:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/noguzm/homework/homework5/timeStamp.php on line 14
+[29-Nov-2017 04:21:23 UTC] PHP Stack trace:
+[29-Nov-2017 04:21:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework5/timeStamp.php:0
+[29-Nov-2017 04:26:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/noguzm/homework/homework5/timeStamp.php on line 14
+[29-Nov-2017 04:26:12 UTC] PHP Stack trace:
+[29-Nov-2017 04:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/homework/homework5/timeStamp.php:0
+[29-Nov-2017 08:09:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'searchItem' in 'where clause'' in /home/ubuntu/workspace/noguzm/homework/homework5/timeStamp.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/noguzm/homework/homework5/timeStamp.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/noguzm/homework/homework5/timeStamp.php on line 11

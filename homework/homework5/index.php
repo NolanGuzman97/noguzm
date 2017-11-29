@@ -48,7 +48,7 @@
 
             type: "get",
             url: "http://api.walmartlabs.com/v1/search",
-            dataType: "json",
+            dataType: "jsonp",
             data: { 
                 "query": $("#searchIt").val(),
                 "format":"json",
