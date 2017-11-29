@@ -1,0 +1,27 @@
+#html,#theBody{
+    color: white;
+    background-image: url("../christmas.jpg");
+    background-repeat:no-repeat;
+    text-align:center;
+}
+#searchIt,#part1,#part2, button{
+    color:black;
+    
+}
+#result{
+    border-style:double;
+    position:absolute;
+    top: 20%;
+    left:40%;
+    height: 30%;
+    width: 30%;
+    overflow-y:auto;
+}
+#count{
+    border-style:double;
+    position:absolute;
+    left:40%;
+    top: 60%;
+    height:30%;
+    overflow-y:auto;
+}
