@@ -44,11 +44,11 @@
     <head>
         <title> Lab 10: Photo Gallery </title>
     </head>
-    <link href="css/style.css" alt="ok" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <body>
 
     <h2> Photo Gallery </h2>
-    <form method="get" enctype="multipart/form-data"> 
+    <form method="GET"> 
 
 
         <input type="file" name="myFile" /> 
