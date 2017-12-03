@@ -503,3 +503,80 @@ Stack trace:
 #0 /home/ubuntu/workspace/noguzm/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/noguzm/labs/lab8/checkUsername.php on line 17
+[01-Dec-2017 21:33:33 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[01-Dec-2017 21:33:33 UTC] PHP Stack trace:
+[01-Dec-2017 21:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:33:33 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[01-Dec-2017 21:33:33 UTC] PHP   3. imagesx() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[01-Dec-2017 21:33:33 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[01-Dec-2017 21:33:33 UTC] PHP Stack trace:
+[01-Dec-2017 21:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:33:33 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[01-Dec-2017 21:33:33 UTC] PHP   3. imagesy() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[01-Dec-2017 21:33:33 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, string given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[01-Dec-2017 21:33:33 UTC] PHP Stack trace:
+[01-Dec-2017 21:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:33:33 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[01-Dec-2017 21:33:33 UTC] PHP   3. imagecopyresampled() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[01-Dec-2017 21:37:27 UTC] PHP Warning:  file_get_contents(sally.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 6
+[01-Dec-2017 21:37:27 UTC] PHP Stack trace:
+[01-Dec-2017 21:37:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:37:27 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[01-Dec-2017 21:37:27 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:6
+[01-Dec-2017 21:37:27 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 6
+[01-Dec-2017 21:37:27 UTC] PHP Stack trace:
+[01-Dec-2017 21:37:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:37:27 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[01-Dec-2017 21:37:27 UTC] PHP   3. imagecreatefromstring() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:6
+[01-Dec-2017 21:37:27 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[01-Dec-2017 21:37:27 UTC] PHP Stack trace:
+[01-Dec-2017 21:37:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:37:27 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[01-Dec-2017 21:37:27 UTC] PHP   3. imagesx() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[01-Dec-2017 21:37:27 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[01-Dec-2017 21:37:27 UTC] PHP Stack trace:
+[01-Dec-2017 21:37:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:37:27 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[01-Dec-2017 21:37:27 UTC] PHP   3. imagesy() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[01-Dec-2017 21:37:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[01-Dec-2017 21:37:27 UTC] PHP Stack trace:
+[01-Dec-2017 21:37:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:37:27 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[01-Dec-2017 21:37:27 UTC] PHP   3. imagecopyresampled() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[01-Dec-2017 21:42:36 UTC] PHP Warning:  file_get_contents(samantha.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 8
+[01-Dec-2017 21:42:36 UTC] PHP Stack trace:
+[01-Dec-2017 21:42:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:42:36 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:33
+[01-Dec-2017 21:42:36 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:8
+[01-Dec-2017 21:42:36 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 8
+[01-Dec-2017 21:42:36 UTC] PHP Stack trace:
+[01-Dec-2017 21:42:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:42:36 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:33
+[01-Dec-2017 21:42:36 UTC] PHP   3. imagecreatefromstring() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:8
+[01-Dec-2017 21:42:36 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 11
+[01-Dec-2017 21:42:36 UTC] PHP Stack trace:
+[01-Dec-2017 21:42:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:42:36 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:33
+[01-Dec-2017 21:42:36 UTC] PHP   3. imagesx() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:11
+[01-Dec-2017 21:42:36 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 11
+[01-Dec-2017 21:42:36 UTC] PHP Stack trace:
+[01-Dec-2017 21:42:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:42:36 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:33
+[01-Dec-2017 21:42:36 UTC] PHP   3. imagesy() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:11
+[01-Dec-2017 21:42:36 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 11
+[01-Dec-2017 21:42:36 UTC] PHP Stack trace:
+[01-Dec-2017 21:42:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[01-Dec-2017 21:42:36 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:33
+[01-Dec-2017 21:42:36 UTC] PHP   3. imagecopyresampled() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:11
+[03-Dec-2017 05:49:37 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php on line 5
+[03-Dec-2017 05:49:37 UTC] PHP Stack trace:
+[03-Dec-2017 05:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php:0
+[03-Dec-2017 05:49:37 UTC] PHP   2. getPetList() /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php:66
+[03-Dec-2017 05:49:37 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php on line 5
+[03-Dec-2017 05:49:37 UTC] PHP Stack trace:
+[03-Dec-2017 05:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php:0
+[03-Dec-2017 05:49:37 UTC] PHP   2. getPetList() /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php:66
+[03-Dec-2017 05:49:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php on line 6
+[03-Dec-2017 05:49:37 UTC] PHP Stack trace:
+[03-Dec-2017 05:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php:0
+[03-Dec-2017 05:49:37 UTC] PHP   2. getPetList() /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php:66

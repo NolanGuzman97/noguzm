@@ -1,0 +1,15 @@
+[03-Dec-2017 06:13:25 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php on line 4
+[03-Dec-2017 06:13:25 UTC] PHP Stack trace:
+[03-Dec-2017 06:13:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php:0
+[03-Dec-2017 06:14:30 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php on line 3
+[03-Dec-2017 06:14:30 UTC] PHP Stack trace:
+[03-Dec-2017 06:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php:0
+[03-Dec-2017 06:14:30 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php on line 3
+[03-Dec-2017 06:14:30 UTC] PHP Stack trace:
+[03-Dec-2017 06:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php:0
+[03-Dec-2017 06:14:30 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php on line 4
+[03-Dec-2017 06:14:30 UTC] PHP Stack trace:
+[03-Dec-2017 06:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php:0
+[03-Dec-2017 06:15:16 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php on line 4
+[03-Dec-2017 06:15:16 UTC] PHP Stack trace:
+[03-Dec-2017 06:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab9/api/getPetInfo.php:0

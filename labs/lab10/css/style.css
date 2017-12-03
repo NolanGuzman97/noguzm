@@ -1,0 +1,20 @@
+title{
+    color:red;
+    font-size:3.2em;
+    text-align:center;
+}
+html{
+    text-align:center;
+    border: dotted;
+    width: 90%;
+    height: 40%;
+    
+}
+.thumb span{
+    position:absolute;
+    visibility: hidden;
+}
+.thumb:hover, .thumb:hover span{
+    visibility: visible;
+    z-index:1;
+}
