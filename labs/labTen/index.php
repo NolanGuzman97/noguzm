@@ -48,7 +48,7 @@
     <body>
 
     <h2> Photo Gallery </h2>
-    <form method="POST" enctype="multipart/form-data"> 
+    <form method="get" enctype="multipart/form-data"> 
 
 
         <input type="file" name="myFile" /> 
