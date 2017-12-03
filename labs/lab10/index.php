@@ -2,19 +2,10 @@
 
   //print_r($_FILES);
   //echo "File size " . $_FILES['myFile']['size'];
-    $counter;
   function createThumbnail($fileName){
-      global $counter;
-      $counter++;
-      $sourceFile=imagecreatefromstring(file_get_contents("gallery/".$fileName));
-      $newx=150;$newy=150;
-      $thumb=imagecreatetruecolor($newx,$newy);
-      imagecopyresampled($thumb,$sourceFile,0,0,0,0,$newx,$newy,imagesx($sourceFile),imagesy($sourceFile));
-      $newName="thumb".$counter.".jpg";
-      imagejpeg($thumb,$newName);
       echo "<a class='thumb' href='#'>";
-      echo "<img src='$newName'/>";
-      echo "<span><img src='gallery/$fileName' alt=''/></span>";
+      echo "<img src='gallery/$fileName'/ height=150 width=150>";
+      echo "<span><img src='gallery/$fileName' alt=''height=300 width=300/></span>";
       echo "</a>";
       
   }

@@ -580,3 +580,33 @@ Stack trace:
 [03-Dec-2017 05:49:37 UTC] PHP Stack trace:
 [03-Dec-2017 05:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php:0
 [03-Dec-2017 05:49:37 UTC] PHP   2. getPetList() /home/ubuntu/workspace/noguzm/labs/lab9/adoptions.php:66
+[03-Dec-2017 07:11:06 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[03-Dec-2017 07:11:06 UTC] PHP Stack trace:
+[03-Dec-2017 07:11:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[03-Dec-2017 07:11:06 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[03-Dec-2017 07:11:06 UTC] PHP   3. imagejpeg() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[03-Dec-2017 07:11:06 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[03-Dec-2017 07:11:06 UTC] PHP Stack trace:
+[03-Dec-2017 07:11:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[03-Dec-2017 07:11:06 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[03-Dec-2017 07:11:06 UTC] PHP   3. imagejpeg() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[03-Dec-2017 07:11:06 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[03-Dec-2017 07:11:06 UTC] PHP Stack trace:
+[03-Dec-2017 07:11:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[03-Dec-2017 07:11:06 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[03-Dec-2017 07:11:06 UTC] PHP   3. imagejpeg() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[03-Dec-2017 07:11:06 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[03-Dec-2017 07:11:06 UTC] PHP Stack trace:
+[03-Dec-2017 07:11:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[03-Dec-2017 07:11:06 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[03-Dec-2017 07:11:06 UTC] PHP   3. imagejpeg() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[03-Dec-2017 07:11:06 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[03-Dec-2017 07:11:06 UTC] PHP Stack trace:
+[03-Dec-2017 07:11:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[03-Dec-2017 07:11:06 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[03-Dec-2017 07:11:06 UTC] PHP   3. imagejpeg() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
+[03-Dec-2017 07:11:06 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/noguzm/labs/lab10/index.php on line 10
+[03-Dec-2017 07:11:06 UTC] PHP Stack trace:
+[03-Dec-2017 07:11:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:0
+[03-Dec-2017 07:11:06 UTC] PHP   2. createThumbnail() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:32
+[03-Dec-2017 07:11:06 UTC] PHP   3. imagejpeg() /home/ubuntu/workspace/noguzm/labs/lab10/index.php:10
