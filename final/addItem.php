@@ -51,7 +51,7 @@ if (!isset($_SESSION['username'])) { //checks whether admin has logged in
         <font color="white">Name: </font><input name="newName" type="text"><br>
         <font color="white">Price: </font><input name="newPrice" type="text"><br>
         <font color="white">Release Date: </font><input name="newReleaseDate" type="text"><br>
-        <font color="white">Upload Picture: </font><input type="file" name="myFile"><br>
+        <font color="white">Upload Picture: </font><input style="color:white;" type="file" name="myFile"><br>
        <font color="white">Platform:  </font><input name="newCategory" type="text"><br>
         <font color="white">Rating: </font><input name="newRating" type="text"><br>
         <input type="submit" value="Add New Item">
